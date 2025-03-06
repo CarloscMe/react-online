@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { Header } from "../src/componentes/header.jsx"
-import { Nav } from "../src/componentes/nav.jsx"
+import { Header } from "./componentes/header"
+import { Nav } from "./componentes/nav"
 import "./styles.css"
 
 

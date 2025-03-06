@@ -1,3 +1,40 @@
 nav{
-    color: blue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    min-height: 10dvh;
+    background-color: #1d1a4e;
+}
+
+.promocion{
+    animation-name: promociones;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    width: 15%;
+    padding: 15px;
+    border-radius: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+@keyframes promociones{
+    0%{
+        background-color: rgb(255, 0, 0);
+    }
+
+    10%{
+        background-color: rgb(7, 255, 255);
+    }
+
+    50%{
+        background-color: rgb(255, 255, 4);
+    }
+
+    100%{
+        background-color: rgb(135, 255, 15);
+    }
+    
 }
