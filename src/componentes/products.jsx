@@ -11,8 +11,13 @@ return(
   <div className="div">
 
     <div className="buuton-1">
-    <button className="prueba">corazon</button>
-    <button className="prueba">vista</button>
+
+    <img src="./prueba.png" alt="prueba" className="imagen-producto" />
+
+    <button className="prueba"><img src="./corazon.png" alt="corazon" /></button>
+
+    <button className="prueba prueba--2"><img src="./ver.png" alt="ver" /></button>
+
     </div>
 
     <h3>$50.00</h3>
@@ -20,8 +25,6 @@ return(
    
 
   </div>
-  
-
   
     </main>
 
